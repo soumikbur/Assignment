@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India - Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="India Logo" width="100">
+        <h1>Explore India</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="hotel_booking.html">Hotel Booking</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <div class="content">
+        <h2>Hotel Booking</h2>
+        <form action="submit_booking.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="checkin">Check-in Date:</label><br>
+            <input type="date" id="checkin" name="checkin" required><br><br>
+
+            <label for="checkout">Check-out Date:</label><br>
+            <input type="date" id="checkout" name="checkout" required><br><br>
+
+            <label for="room_type">Room Type:</label><br>
+            <select id="room_type" name="room_type" required>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select><br><br>
+
+            <label for="comments">Special Requests:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2024 Explore India. All rights reserved.
+    </footer>
+</body>
+</html>

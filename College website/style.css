@@ -1,0 +1,112 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #455a64; /* a softer, bluer gray */
+    text-decoration: none;
+    transition: color 0.2s ease; /* adds a smooth hover effect */
+}
+
+nav a:hover {
+    color: #87a2b5; /* a calming, muted blue */
+}
+
+nav a:hover {
+    color: #87a2b5; /* a calming, muted blue */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.heritage-list a img {
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.heritage-list a img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+form input[type="submit"] {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #495057;
+}
